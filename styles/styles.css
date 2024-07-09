@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+- header - footer 1440px
+- Main - 1140px
+** Shared Styles: 
+- h1/h2: Azeret Mono 45 #0D1321
+- h3: Azeret Mono 32 #0D1321
+- h4: Azeret Mono 24 #0D1321 Opacity: 0.7
+- p: Azeret Mono 16 #0D1321 Opacity: 0.7
+- Button White Azeret Mono 20 #0D1321
+- Illustrations is 240px*240px Aproximatly.
+*/
