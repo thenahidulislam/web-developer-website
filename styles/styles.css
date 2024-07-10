@@ -214,6 +214,9 @@ height: 208.85px;
 }
 
 /* inspiration section starts here */
+.inspiration-wrapper .section-head p{
+    margin-bottom: 80px;
+}
 .inspiration-video-placeholder{
 padding: 32px;
 border: 1px solid rgba(13, 19, 33, 0.2);
