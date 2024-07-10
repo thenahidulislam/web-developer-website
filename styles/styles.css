@@ -274,6 +274,7 @@ color: rgb(13, 19, 33);
 font-family: "Azeret Mono", monospace;
 font-size: 16px;
 font-weight: 700;
+cursor: pointer;
 }
 
 /* feedback-section starts here */
