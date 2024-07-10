@@ -146,7 +146,6 @@ cursor: pointer;
 main{
     width: 1140px;
     margin: 0 auto;
-    border: 1px solid cornflowerblue;
     margin-bottom: 80px;
 }
 
@@ -219,6 +218,7 @@ height: 208.85px;
 padding: 32px;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
+margin-bottom: 150px;
 }
 
 .inspiration-video-placeholder iframe{
@@ -231,6 +231,7 @@ margin-top: 48px;
 display: flex;
 justify-content: space-between;
 gap: 24px;
+margin-bottom: 45px;
 }
 .target{
 padding: 40px;
@@ -329,4 +330,24 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 }
 
+/* footer starts here */
+.footer-wrapper{
+margin-top: 80px;
+padding: 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+justify-content: space-between;
+}
 
+.footer-wrapper .about h5{
+color: rgb(13, 19, 33);
+font-family: "Azeret Mono", monospace;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 16px;
+}
+
+.social-handles a{
+    cursor: pointer;
+}
