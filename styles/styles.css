@@ -31,9 +31,34 @@
     font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-weight: 400;
+    color: #0D1321;
     opacity: 0.7;
 }
 
+.section-head{
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+}
+.section-head h3{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.btn-normal{
+padding: 12px 20px 12px 20px;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: "Azeret Mono", monospace;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+background-color: white;
+}
 
 /* nav style starts */
 .header-wrapper{
@@ -116,4 +141,192 @@ font-size: 20px;
 font-weight: 600;
 cursor: pointer;
 }
+
+/* Main Sections Starts Here */
+main{
+    width: 1140px;
+    margin: 0 auto;
+    border: 1px solid cornflowerblue;
+    margin-bottom: 80px;
+}
+
+/* Services Section Starts Here */
+.services-wrapper{
+width: 945px;
+margin: 0 auto;
+margin-top: 155px;
+margin-bottom: 48px;
+}
+
+.service{
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(249, 243, 243),rgba(255, 255, 255, 0) 100%);
+padding: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 32px;
+}
+.service-middle{
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(249, 243, 243),rgba(255, 255, 255, 0) 100%);
+padding: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+margin-bottom: 32px;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.service-content-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service-heading{
+font-family: "Azeret Mono", monospace;
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+color: rgba(13, 19, 33, 0.7);
+margin-bottom: 16px;
+}
+.service-description{
+    margin-bottom: 32px;
+}
+.service-image1{
+width: 259.56px;
+height: 217.01px;
+}
+.service-image3{
+width: 206.4px;
+height: 187.32px;
+}
+.service-image3{
+width: 223.2px;
+height: 208.85px;
+}
+
+/* inspiration section starts here */
+.inspiration-video-placeholder{
+padding: 32px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+
+.inspiration-video-placeholder iframe{
+    border-radius: 16px;
+    }
+
+/* targets section starts here */
+.targets{
+margin-top: 48px;
+display: flex;
+justify-content: space-between;
+gap: 24px;
+}
+.target{
+padding: 40px;
+}
+.target img{
+width: 56px;
+height: 56px;
+margin-bottom: 24px;
+}
+.target-heading{
+color: rgb(13, 19, 33);
+font-family: "Azeret Mono", monospace;
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 8px;
+
+}
+.target1{
+border-radius: 16px;
+background-color: rgba(255, 76, 30, 0.05);
+}
+.target2{
+border-radius: 16px;
+background-color: rgba(0, 76, 232, 0.05);}
+.target3{
+border-radius: 16px;
+background-color: rgba(255, 223, 0, 0.05);
+}
+.target-excerpt{
+font-family: "Azeret Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+color: #0D1321;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+
+.learn-more-link{
+color: rgb(13, 19, 33);
+font-family: "Azeret Mono", monospace;
+font-size: 16px;
+font-weight: 700;
+}
+
+/* feedback-section starts here */
+.feedback-section{
+background-image: url("../assets/handshake.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+padding: 64px 48px;
+width: 1140px;
+border-radius: 16px;
+/* background-image: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url("../assets/handshake.jpg"); */
+
+}
+.feedback-section .section-head h3{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+}
+.feedback-section .section-head p{
+color: rgb(255, 255, 255);
+font-family: "Azeret Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+.feedback-form{
+    text-align: center;
+    margin-top: 24px;
+}
+.feedback-form input[type=text]{
+width: 548px;
+padding: 19px 20px 19px 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.feedback-form input[type=text] ::placeholder{
+font-family: "Azeret Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+color: rgba(13, 19, 33, 0.4);
+}
+.feedback-form input[type=submit]{
+width: 120px;
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
 
