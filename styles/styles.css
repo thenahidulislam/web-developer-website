@@ -281,6 +281,10 @@ cursor: pointer;
 }
 
 /* feedback-section starts here */
+.overlay {
+    border-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2))
+      fill 1;
+  }
 .feedback-section{
 background-image: url("../assets/handshake.jpg");
 background-size: cover;
@@ -288,8 +292,7 @@ background-repeat: no-repeat;
 padding: 64px 48px;
 width: 1140px;
 border-radius: 16px;
-/* background-image: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url("../assets/handshake.jpg"); */
-
+background-position: center;
 }
 .feedback-section .section-head h3{
 color: rgb(255, 255, 255);
